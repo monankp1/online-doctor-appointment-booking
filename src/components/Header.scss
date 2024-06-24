@@ -1,0 +1,56 @@
+.header {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    font-size: larger;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+
+}
+
+.logo {
+    position: relative;
+    left: 5vw;
+}
+
+.bookBtn {
+    color: white;
+    background-color: rgb(234, 107, 27);
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    font-weight: 700;
+    position: relative;
+    right: 5vw;
+}
+
+.checkBtn {
+    color: white;
+    background-color: rgb(234, 107, 27);
+    width: 7rem;
+    height: 3rem;
+    border: none;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    font-weight: 700;
+    position: relative;
+    right: 5vw;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .bookBtn,
+    .checkBtn {
+        width: 3.5rem;
+        height: 2rem;
+        font-size: 12px;
+    }
+}
